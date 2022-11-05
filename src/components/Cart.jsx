@@ -14,9 +14,9 @@ export const Cart = ({ cart, removeFromCart, clearCart }) => {
           <h4>{product.name}</h4>
           <p>${product.price}</p>
           <button className="btn btn-danger" onClick={() => removeFromCart(product)}>Remove</button>
-          <button className="btn btn-info" onClick={()=>clearCart(product)}>Clear Cart</button>
-      </div>
-    ))}
+          <button className="btn btn-info text-light" onClick={()=>clearCart(product)}>Clear Cart</button>
+        </div>
+      ))}
       </div>
       <div className="text-success mt-4">Total Bill: ${getTotalPrice().toFixed(2)}</div>
     </div>
