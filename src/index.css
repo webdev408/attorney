@@ -1,0 +1,36 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gotocart {
+  margin-right: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.view {
+  width: 120px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.products {
+  background-color: #9a87b6;
+  padding: 1.5rem;
+}
+
+.img-thumbnail {
+  width: 150px;
+  height: 100px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+}
